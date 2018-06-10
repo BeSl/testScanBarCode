@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ebf8ead-0c52-4c54-ad42-ce278a67cd93">
+  <producedTypes>
+    <objectType typeId="ef67e5f1-f19e-4124-ad73-d3d7ddaa0dd7" valueTypeId="d48e9714-ccd4-4927-bd58-0cc932ce28d7"/>
+    <managerType typeId="83de2541-c2ad-47ca-b52d-24284ee4fea8" valueTypeId="58ac2156-5179-4ba0-9dbc-ef6f2d004a77"/>
+  </producedTypes>
+  <name>СканированиеШК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование ШК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СканированиеШК.Form.Форма</defaultForm>
+  <tabularSections uuid="0fe52cbe-7d01-4369-bc6b-640b9e267fcf">
+    <producedTypes>
+      <objectType typeId="6ee0c3b7-47bc-4f4d-b815-200a720c04bf" valueTypeId="70ab53cf-a377-4dd2-a71d-398a1bf297cc"/>
+      <rowType typeId="4bb2077e-8cc7-4465-adf4-74435bdbddb5" valueTypeId="984937f6-df85-47b3-8c72-2e9418089f77"/>
+    </producedTypes>
+    <name>КоллекцияВведенныхШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция введенных ШК</value>
+    </synonym>
+    <attributes uuid="1a6550c7-27eb-4449-828e-040bcc84ff04">
+      <name>ЗначениеШК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение ШК</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="236f9552-8f4e-4514-9f68-78dc195bbd8d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0dfc8fa3-46c4-4049-964d-8e7c65b30081">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
